@@ -29,42 +29,30 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+=============================
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Used React hooks to create Login and To-do App
+2. Used Material UI to add inut fields with icons and styles to match the mock
+3. Tried both axios and fetch but running into issues while hitting rapptr endpoint
+4. So byapssed it to test the flow
+5. Once we login successfully, It should navigate to To Do app
+6. You can see the default two items on your first visit
+7. You can add new todo's, or edit existing ones
+8. These get saved so that once we log back in, we see the same items.
+9. We can delete individual items and see the result persisted again.
+10. Once you hit logout it should return to login page.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Used hooks, scss, materialUI
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+It took almost 8 - 9  hours almost as i was searching for similar looking text components to match the login form.
+It took tine to hit the API, as i tried alsmot three to four ways but always ran into 400 Bad request.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2 hrs -basic components and functionality
+2 hrs styling
+2 hrs API debugging but in vain
+2 hrs testing and refactoring the app.
 
-## Learn More
+As i had other interviews as weel, I could not dedicate much time as I intended.
+But I think i tried my level best to cover all cases except the API issue..
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
