@@ -55,4 +55,12 @@ It took tine to hit the API, as i tried alsmot three to four ways but always ran
 As i had other interviews as weel, I could not dedicate much time as I intended.
 But I think i tried my level best to cover all cases except the API issue..
 
+![Screenshot 2021-02-28 at 6 52 59 PM](https://user-images.githubusercontent.com/79813386/109438098-516dd400-79f6-11eb-8b88-6901e889887f.png)
+
+
+![Screenshot 2021-02-28 at 6 53 24 PM](https://user-images.githubusercontent.com/79813386/109438093-503ca700-79f6-11eb-90dc-892bfa74c7e7.png)
+
+![Screenshot 2021-02-28 at 6 53 20 PM](https://user-images.githubusercontent.com/79813386/109438094-50d53d80-79f6-11eb-84ea-eee5af1f9039.png)
+![Screenshot 2021-02-28 at 6 53 12 PM](https://user-images.githubusercontent.com/79813386/109438096-50d53d80-79f6-11eb-94f0-3fa25d4f2f21.png)
+![Screenshot 2021-02-28 at 6 53 07 PM](https://user-images.githubusercontent.com/79813386/109438097-516dd400-79f6-11eb-901a-ee6dc55e93cb.png)
 
