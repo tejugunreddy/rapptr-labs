@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ListItem from "./ListItem";
 
 const ToDoApp = (props) => {
+  // Sample state
   const [toDoList, setToDoList] = useState(["one", "two"]);
   const [searchTerm, setSearchTerm] = useState("");
   const [displayList, setDisplayList] = useState([]);
@@ -19,7 +20,7 @@ const ToDoApp = (props) => {
 
   const addLineItem = () => {
     const currentList = toDoList.slice();
-    currentList.push("sample");
+    currentList.push("New ToDo");
     updateLocalStorage(currentList);
     setToDoList(currentList);
   };
@@ -50,8 +51,11 @@ const ToDoApp = (props) => {
     setSearchTerm(e.target.value);
   };
 
-  const handleRemoveItem = (itemName) => {
-    setToDoList(toDoList.filter((list) => list.indexOf(itemName) !== -1));
+  const handleRemoveItem = (index) => {
+    let updatedList = toDoList.slice();
+    updatedList.splice(index, 1);
+    updateLocalStorage(updatedList);
+    setToDoList(updatedList);
   };
 
   const handleLogOut = () => {

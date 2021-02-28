@@ -20,8 +20,8 @@ const ListItem = (props) => {
     setItemName(e.target.value);
   };
 
-  const handleDelete = (itemName) => {
-    props.removeItem(itemName);
+  const handleDelete = () => {
+    props.removeItem(props.index);
   };
 
   const toggleEditable = () => {

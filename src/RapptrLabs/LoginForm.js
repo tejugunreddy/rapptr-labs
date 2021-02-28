@@ -79,7 +79,7 @@ const LoginForm = (props) => {
 
   return (
     <form id="loginForm" onSubmit={handleLogin}>
-      <h3>Rapptr Labs</h3>
+      <h2>Rapptr Labs</h2>
       <div className="form-group">
         <FormControl error={emailError}>
           <InputLabel htmlFor="input-with-icon-adornment">Email</InputLabel>
@@ -130,6 +130,7 @@ const LoginForm = (props) => {
           )}
         </FormControl>
       </div>
+      <br />
       <div className="form-group btn-form-group">
         <input
           type="submit"
