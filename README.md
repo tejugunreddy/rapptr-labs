@@ -33,14 +33,15 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 1. Used React hooks to create Login and To-do App
 2. Used Material UI to add inut fields with icons and styles to match the mock
-3. Tried both axios and fetch but running into issues while hitting rapptr endpoint
-4. So byapssed it to test the flow
-5. Once we login successfully, It should navigate to To Do app
-6. You can see the default two items on your first visit
-7. You can add new todo's, or edit existing ones
-8. These get saved so that once we log back in, we see the same items.
-9. We can delete individual items and see the result persisted again.
-10. Once you hit logout it should return to login page.
+3. Tried both axios and fetch but running into issues while hitting rapptr endpoint 
+4. Passed both emai land password but it says missing params.. Attached screenshots for the same ..
+5. So byapssed it to test the flow
+6. Once we login successfully, It should navigate to To Do app
+7. You can see the default two items on your first visit
+8. You can add new todo's, or edit existing ones
+9. These get saved so that once we log back in, we see the same items.
+10. We can delete individual items and see the result persisted again.
+11. Once you hit logout it should return to login page.
 
 Used hooks, scss, materialUI
 
@@ -64,3 +65,7 @@ But I think i tried my level best to cover all cases except the API issue..
 ![Screenshot 2021-02-28 at 6 53 12 PM](https://user-images.githubusercontent.com/79813386/109438096-50d53d80-79f6-11eb-94f0-3fa25d4f2f21.png)
 ![Screenshot 2021-02-28 at 6 53 07 PM](https://user-images.githubusercontent.com/79813386/109438097-516dd400-79f6-11eb-901a-ee6dc55e93cb.png)
 
+![Screenshot 2021-02-28 at 6 58 08 PM](https://user-images.githubusercontent.com/79813386/109438255-2932a500-79f7-11eb-8764-73349c1d2dc0.png)
+
+![Screenshot 2021-02-28 at 6 57 59 PM](https://user-images.githubusercontent.com/79813386/109438256-29cb3b80-79f7-11eb-8413-ffe7775ce29f.png)
+![Screenshot 2021-02-28 at 6 57 54 PM](https://user-images.githubusercontent.com/79813386/109438258-29cb3b80-79f7-11eb-9f2a-c0d04c792642.png)
