@@ -68,7 +68,7 @@ const ToDoApp = (props) => {
       <button id="logOutBtn" onClick={handleLogOut}>
         Log Out
       </button>
-      <h3>My To-Do List</h3>
+      <h2>My To-Do List</h2>
       <table>
         <tbody>
           <tr>

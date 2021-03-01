@@ -6,9 +6,9 @@ html {
     background: cornflowerblue;
 
     #root {
-      width: 50%;
+      width: 36%;
       height: 70%;
-      margin: 13% 25%;
+      margin: 10% 30%;
       background-color: white;
 
       .App {
@@ -70,7 +70,7 @@ html {
 
   table {
     width: 80%;
-    margin: 0 10%;
+    margin: 10% 10%;
     border-collapse: collapse;
   }
 
@@ -80,5 +80,9 @@ html {
 
   #logOutBtn {
     float: right;
+  }
+
+  h2 {
+    margin-top: 10%;
   }
 }
